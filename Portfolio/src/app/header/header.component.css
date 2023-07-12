@@ -1,0 +1,87 @@
+.container{
+    box-sizing: border-box;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo
+{
+    background-image: url("./HeaderImages/R-Logo.jpg");
+    height: 90px;
+    width: 70px;
+    background-repeat: no-repeat;    
+    background-size: contain;
+    cursor: pointer;
+}
+
+.navbar{
+    height: 12%;
+    display: flex;    
+    align-items: center;    
+}
+
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 1rem;  
+    margin-top: 0.3%;  
+}
+
+.navbar ul li a{
+    cursor: pointer;    
+}
+
+.btn{
+    padding : 1rem;
+    border-radius: 15px;
+    background-color: rgba(12, 44, 65, 0.89);
+    color: white;   
+    border: none;
+    letter-spacing: 3px;
+}
+
+.Menu{
+    background-image: url(./HeaderImages/menu1.png);
+    background-repeat: no-repeat;    
+    background-size: contain;
+    height: 50px;
+    width: 40px;
+    display: none;
+}
+
+@media all and (max-width:650px){
+    .navbar{
+        flex-flow: row;
+    }
+    .navbar ul li{
+        display: flex;
+        flex-direction: row;
+        margin-left: 5%;
+    }
+    nav{
+        position: absolute;
+        top: 5rem;
+        right: 0;
+    }
+    
+    
+    .logo{
+        position: absolute;
+        top: 2rem;        
+    }
+    .btn{
+        margin-right: 1rem;
+    }
+
+    .Menu{
+        display: block;
+        position: absolute;
+        top: 2.5rem;
+        right: 3rem;
+    }
+}

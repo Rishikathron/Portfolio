@@ -1,0 +1,13 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@media all and (max-width : 655px){
+    .main{
+        display: flex;
+        flex-direction: column;
+        gap: 23rem;
+    }
+}

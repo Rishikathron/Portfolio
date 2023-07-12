@@ -1,0 +1,110 @@
+.container{
+    box-sizing: border-box;
+    padding-left: 8%;
+    padding-right: 8%;    
+}
+
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+ul li {
+    list-style: none;
+}
+
+.flexi {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+    margin-top: 0.3%;
+    
+}
+
+.sociallinks{
+margin-top: 2rem;
+}
+.flexi{    
+    display: grid;
+    grid-template-columns: 2rem 2rem 2rem;
+    gap: 1rem;    
+}
+
+.linkedin{
+    background-image: url("./BodyImages/Linkedin.png");
+    background-size: contain;
+    background-repeat: no-repeat; 
+    height: 35px; 
+      
+}
+
+.git{
+    background-image: url("./BodyImages/GIT.png");
+    background-size: contain;
+    background-repeat: no-repeat; 
+    height: 35px;   
+}
+
+.insta{
+    background-image: url("./BodyImages/icons8-instagram-48.png");
+    background-size: contain;
+    background-repeat: no-repeat; 
+    height: 35px;  
+}
+
+.mainbody{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 5rem;
+    
+}
+
+.bodyimg{
+    background-image: url("./BodyImages/profileimg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+}
+
+@media all and (max-width:1022px){
+    .container{
+       text-align: center;
+       justify-content: center;
+    }
+    .mainbody{
+        display: flex;
+        flex-direction: column-reverse;
+        gap:2rem
+    }
+    .bodyimg{
+        background-image: url("./BodyImages/profileimg.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 300px;
+        display: flex;
+        position: relative;
+        left: 35%;
+        align-items: center;
+    }
+    .flexi{
+        justify-content: center;
+        text-align: center;
+        margin-left: 6%;
+    }
+}
+
+@media (max-width:780px){
+    .bodyimg{
+        background-image: url("./BodyImages/profileimg.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 300px;
+        display: flex;
+        position: relative;
+        left: 25%;
+        align-items: center;
+    }
+}
