@@ -1,0 +1,50 @@
+.about{
+    display: flex;
+    flex-flow: row;
+    gap: 2rem;
+    margin-left: 3rem;
+}
+.pic{
+    /* background-image: url("./Images/Man.jpg"); */
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.intro{
+    padding: 4rem;    
+}
+
+.content{
+    padding-right: 5rem;
+}
+
+.cv{
+    margin-top: 5%;
+}
+
+.cv button{
+    border: none;
+    border-radius: 1rem;
+    font-weight: bold;
+    padding: 1rem;
+    background-color: rgb(41, 36, 114);
+    color: whitesmoke;
+
+}
+
+.cv button:hover{
+    /* background-color: rgb(156,215,215); */
+    background : linear-gradient(rgb(154,214,214),rgb(156, 151, 230));
+    color : white;
+    font-weight: bolder;
+}
+/* 
+skills tab */
+
+.linebreak{
+    border: 1px solid linear-gradient(rgb(154,214,214),rgb(41, 36, 114)) ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 10rem;
+}

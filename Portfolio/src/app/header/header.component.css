@@ -1,8 +1,4 @@
-.container{
-    box-sizing: border-box;
-    padding-left: 8%;
-    padding-right: 8%;
-}
+
 .logo
 {
     background-image: url("./HeaderImages/R-Logo.jpg");
@@ -39,7 +35,7 @@ nav{
 .btn{
     padding : 1rem;
     border-radius: 15px;
-    background-color: rgba(12, 44, 65, 0.89);
+    background-color: rgb(126,105,211);
     color: white;   
     border: none;
     letter-spacing: 3px;
