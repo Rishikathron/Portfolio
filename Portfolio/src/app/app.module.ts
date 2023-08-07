@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { BodyComponent } from './body/body.component';
 import { SkillsComponent } from './body/skills/skills.component';
+import { ContactComponent } from './body/contact/contact.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { SkillsComponent } from './body/skills/skills.component';
     AppComponent,
     HeaderComponent,
     BodyComponent,
-    SkillsComponent    
+    SkillsComponent,
+    ContactComponent    
   ],
   imports: [
     BrowserModule,

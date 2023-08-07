@@ -1,0 +1,75 @@
+.flexcontainer{
+    display: flex;
+    flex-flow: row;
+    gap: 2rem;
+    
+}
+
+.card{
+    display: flex;
+    flex-flow: column;
+    gap: 1rem;  
+    background-color: aliceblue;
+    padding: 1rem; 
+    border-radius: 1rem; 
+    width: 30%;
+}
+
+.connectimg{
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+    width: 150px;
+    height: 150px;
+}
+
+.findmeimgs{    
+    display: grid;
+    grid-template-columns: 2rem 2rem 2rem;
+    gap: 1rem;    
+}
+
+.linkedin{
+    background-image: url("../BodyImages/Linkedin.png");
+    background-size: contain;
+    background-repeat: no-repeat; 
+    height: 35px;       
+}
+
+.git{
+    background-image: url("../BodyImages/GIT.png");
+    background-size: contain;
+    background-repeat: no-repeat; 
+    height: 35px;   
+}
+
+.insta{
+    background-image: url("../BodyImages/icons8-instagram-48.png");
+    background-size: contain;
+    background-repeat: no-repeat; 
+    height: 35px;  
+}
+
+/* forms */
+
+.forms{
+    width: 50%;
+    background-color: antiquewhite;
+    display: flex;
+    padding: 1rem;
+    margin-left: 2rem;
+    border-radius: 1rem;
+}
+.formcontainer{
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+}
+.row1{
+    display: flex;
+    gap: 1rem;
+}
+.userinput{
+    display: flex;
+    flex-direction: column;
+}

@@ -104,11 +104,19 @@ margin-top: 2rem;
 }
 
 .Skills{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
+    display: flex;
+    flex-wrap: wrap;
+    flex : 0 0 33.333333%
 } 
 
 
 .container{
     margin: 2rem;
+}
+
+.Skillheader{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    color: rgb(106, 90, 171);
 }

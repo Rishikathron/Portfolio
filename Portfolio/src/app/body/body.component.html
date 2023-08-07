@@ -23,11 +23,17 @@
         <div class="bodyimg"></div>
     </div>
     
-    <br><br><br>
+    <br><br><hr class="Line"><br>
+    <div class="Skillheader"><H1>My Skills</H1></div>
     <div  class="Skills container" >
         <div *ngFor = "let detail of details">
-            <app-skills [SkillImg] = detail></app-skills> 
+            <app-skills [SkillImg] = detail></app-skills>
         </div>
+    </div>
+    <br><br><hr class="Line"><br>
+
+    <div class="Contact">
+        <app-contact></app-contact>
     </div>
     
 </div>
