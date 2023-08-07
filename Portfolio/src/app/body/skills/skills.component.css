@@ -1,0 +1,18 @@
+.container{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem;    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.skillicon{
+    background-size: contain;
+    background-repeat: no-repeat; 
+    height: 150px;
+    width: 150px;    
+}
