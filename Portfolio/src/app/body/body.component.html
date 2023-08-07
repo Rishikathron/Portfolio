@@ -24,17 +24,10 @@
     </div>
     
     <br><br><br>
-    <span  class="Skills container" *ngFor = "let detail of details">
-        <app-skills [SkillImg] = detail></app-skills>        
-        <!-- <app-skills [SkillImg] = details[1]></app-skills>
-        <app-skills [SkillImg] = details[2]></app-skills>
-        <app-skills [SkillImg] = details[3]></app-skills>
-        <app-skills [SkillImg] = details[4]></app-skills>
-        <app-skills [SkillImg] = details[5]></app-skills>
-        <app-skills [SkillImg] = details[6]></app-skills>
-        <app-skills [SkillImg] = details[7]></app-skills>
-        <app-skills [SkillImg] = details[8]></app-skills>
-        <app-skills [SkillImg] = details[9]></app-skills> -->
-    </span>
+    <div  class="Skills container" >
+        <div *ngFor = "let detail of details">
+            <app-skills [SkillImg] = detail></app-skills> 
+        </div>
+    </div>
     
 </div>

@@ -41,7 +41,7 @@ nav{
     letter-spacing: 3px;
 }
 
-.Menu{
+#Menu{
     background-image: url(./HeaderImages/menu1.png);
     background-repeat: no-repeat;    
     background-size: contain;
@@ -49,8 +49,15 @@ nav{
     width: 40px;
     display: none;
 }
+#navmedia{
+    display: block;
+}
 
 @media all and (max-width:650px){
+
+    /* .navmedia{
+        display: none;
+    } */
     .navbar{
         flex-flow: row;
     }
@@ -74,7 +81,7 @@ nav{
         margin-right: 1rem;
     }
 
-    .Menu{
+    #Menu{
         display: block;
         position: absolute;
         top: 2.5rem;
