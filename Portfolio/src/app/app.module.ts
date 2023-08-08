@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { BodyComponent } from './body/body.component';
 import { SkillsComponent } from './body/skills/skills.component';
 import { ContactComponent } from './body/contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { ContactComponent } from './body/contact/contact.component';
     HeaderComponent,
     BodyComponent,
     SkillsComponent,
-    ContactComponent    
+    ContactComponent,
+    FooterComponent    
   ],
   imports: [
     BrowserModule,
