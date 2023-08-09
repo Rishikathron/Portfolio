@@ -8,6 +8,7 @@ h1{
 
 
 
+
 .card{
     height: fit-content;    
     max-width: 80%;
@@ -56,9 +57,69 @@ h1{
     }    
 }
 
-@media (min-width : 300px) and (max-width : 399px){
+@media (min-width : 340px) and (max-width : 399px){
     .round{        
         left: 4.8%;
     }    
 }
 
+
+@media (min-width : 300px) and (max-width : 339px){
+    .round{        
+        left: 5%;
+    }    
+}
+
+@media (min-width : 250px) and (max-width : 299px){
+    .round{        
+        left: 6.2%;
+    }    
+}
+
+@media (min-width : 150px) and (max-width : 259px){
+    .round{        
+        left: 8.5%;
+    }    
+}
+
+                        /* ---------------Project Contents---------- */          
+
+.projectcontent{
+    max-height: fit-content;
+    height: 200px;
+    max-width: 250px;
+    border-radius: 1rem;
+    gap: 1rem;
+    margin-left: 1rem;
+    overflow: hidden;
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(52, 194, 199, 0.645), 0 6px 20px 0 rgba(0, 0, 0, 0.41);
+}
+
+.projectcontent:hover{
+    background-color: rgb(0, 0, 0);
+    z-index: -1;
+}
+.projectimage{        
+    /* background-image: url('../../assets/Experiance_Projects/tictactow.jpg'); */
+    background-size: cover;
+    max-width: 250px;    
+}
+
+
+.projectimage :hover{
+    opacity: 0.1;
+}
+
+.projectname{
+    position: relative;    
+    text-align: center;    
+    align-items: center;
+    
+    
+}
+
+.pdesc{
+    position: relative;
+    bottom: -150px;
+}
