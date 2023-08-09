@@ -1,23 +1,29 @@
-.main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;    
-    align-items: center;
-}
-
-.container{
-    border-radius: 15rem;
-    height: 16.5rem;
-    width: 20%;
-    padding: 3rem;
-    border: dashed rgb(62, 173, 173);
-    display: flex;    
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-
 hr{
     border: solid rgb(0,140,140) 1px;
     width: 100%;
+}
+
+.btmfooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+    padding-left: 1rem;
+    padding-right: 1rem;
+    align-items: center;
+    color:  rgba(17, 112, 114, 0.821);
+}
+
+.leftcontent, .leftcontent>h4 {
+    display: flex;
+    gap: 1rem;    
+}
+
+
+.emailicon{
+    margin-top: 0.7rem;
+    margin-right: 1rem;
+}
+
+.top{
+    margin-bottom: 0.3rem;
 }

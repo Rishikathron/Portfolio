@@ -12,7 +12,7 @@
     .main{
         display: flex;
         flex-direction: column;
-        gap: 23rem;
+        
         padding-left: 1rem;
     }
 }

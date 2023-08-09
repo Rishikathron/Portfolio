@@ -5,6 +5,10 @@
     align-items: center;
 }
 
+.contactheader{
+    font-size: x-large;
+    color:  rgba(17, 112, 114, 0.821);
+}
 
 .flexcontainer{
     display: flex;
@@ -57,14 +61,16 @@
     background-image: url("../BodyImages/Linkedin.png");
     background-size: contain;
     background-repeat: no-repeat; 
-    height: 35px;       
+    height: 35px;   
+    cursor: pointer;    
 }
 
 .git{
     background-image: url("../BodyImages/GIT.png");
     background-size: contain;
     background-repeat: no-repeat; 
-    height: 35px;   
+    height: 35px;
+    cursor: pointer;    
 }
 
 .insta{
@@ -72,6 +78,7 @@
     background-size: contain;
     background-repeat: no-repeat; 
     height: 35px;  
+    cursor: pointer; 
 }
 
 @media (max-width:1099px){

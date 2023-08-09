@@ -1,0 +1,30 @@
+<div class="container">
+
+    <h1>EDUCATION</h1>
+    <div class="card">
+        
+        <div *ngFor="let rec of Education" class="loop">
+            <div class="round"></div>
+            <div class="content">                
+                <div class="YEAR"><h3><span><img src="../../assets/Experiance_Projects/calendar.png" alt="" width="15px" height="15px"></span>  &nbsp;{{rec.year}}</h3></div>
+                <div class="degree"> <h4>{{rec.degree}}</h4> </div>
+                <div class="about"> {{rec.about}} </div>
+            </div>
+        </div>
+    
+    </div>
+    <h1>EXPERIANCE</h1>
+    <div class="card">
+        
+        <div *ngFor="let rec of Experiance" >
+            <div class="round"></div>
+            <div class="content">
+                <div class="YEAR"><h3><span><img src="../../assets/Experiance_Projects/calendar.png" alt="" width="15px" height="15px"></span>  &nbsp;{{rec.year}}</h3></div>
+                <div class="role"><h4>{{rec.role}}</h4></div>
+                <div class="about">{{rec.about}}</div>
+            </div>
+        </div>
+    </div>
+    
+
+</div>

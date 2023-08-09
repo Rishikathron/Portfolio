@@ -10,23 +10,18 @@ ul li {
 }
 
 /* ----------dev animation---------- */
-.outer-headings {    
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
+
   .alterrole{
     display: none;
   }
   
   h1 {
     font-size: 45px;
-  }
-  
+  }  
   
   .inner-headings {   
-    margin: 0; 
+    margin-bottom: 0;
+    margin-top: 0.5rem;
     height: 50px;
     line-height: 50px;
     font-size: 45px;
@@ -36,7 +31,10 @@ ul li {
   
   .inner-headings span {
     position: relative;
-    color: rgb(51,154,203);
+    color:rgba(17, 112, 114, 0.821);
+    /* color: rgb(100,90,223); */
+    font-weight: bold;
+    /* text-shadow: 0 0 2px rgb(144,140,206); */
     animation: animation 10s ease infinite;
   }
   
@@ -76,6 +74,14 @@ ul li {
     }
   }
 /* --------------- */
+.intro{
+  margin-bottom: 0;
+  color:  black;
+  
+}
+.about{
+  margin-top: 1rem;
+}
 .flexi {
     list-style: none;
     display: flex;
@@ -85,17 +91,18 @@ ul li {
     
 }
 
-.sociallinks{
-    margin-top: 2rem;
-}
+
 
 .flexi{    
     display: grid;
     grid-template-columns: 2rem 2rem 2rem;
-    gap: 1rem;    
+    gap: 1rem; 
+    
+
 }
 
 .linkedin{
+  cursor: pointer;
     background-image: url("./BodyImages/Linkedin.png");
     background-size: contain;
     background-repeat: no-repeat; 
@@ -104,6 +111,7 @@ ul li {
 }
 
 .git{
+  cursor: pointer;
     background-image: url("./BodyImages/GIT.png");
     background-size: contain;
     background-repeat: no-repeat; 
@@ -114,9 +122,38 @@ ul li {
     background-image: url("./BodyImages/icons8-instagram-48.png");
     background-size: contain;
     background-repeat: no-repeat; 
-    height: 35px;  
+    height: 35px; 
+    cursor: pointer; 
 }
 
+.CV{
+  margin-top: 1.5rem;
+  margin-left: 3rem;
+}
+
+.btn{
+  padding : 1rem;
+  border-radius: 15px;
+  background-color:rgb(126,127,216);
+  color: white; 
+  font-weight: bold;
+  border: none;
+  letter-spacing: 3px;
+  box-shadow:  0 4px 8px 0 rgba(52, 194, 199, 0.318), 0 6px 20px 0 rgba(0, 0, 0, 0.059);
+  cursor: pointer;
+}
+
+.btn:hover{
+  color: rgb(126,127,216);
+  background-color: white;
+  transition: 0.4s;
+}
+
+.interactive{
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: row;
+}
 .mainbody{
     display: grid;
     grid-template-columns: 50% 50%;
@@ -124,11 +161,13 @@ ul li {
     
 }
 
+
 .bodyimg{
-    background-image: url("./BodyImages/profileimg.png");
+    background-image: url("../../assets/SkillComponentImages/computer.png");
     background-repeat: no-repeat;
     background-size: contain;
-    height: 450px;
+    height: 450px;    
+    transform: perspective(300px) rotateX(0deg) rotateY(0deg);
 }
 
 @media all and (max-width:1022px){
@@ -186,5 +225,7 @@ ul li {
     display: flex;
     justify-content: center;
     font-size: x-large;
-    color: rgb(106, 90, 171);
+    color:  rgba(17, 112, 114, 0.821);;
+    /* text-shadow: 0 0 1px  rgb(52,195,199); */
+    
 }

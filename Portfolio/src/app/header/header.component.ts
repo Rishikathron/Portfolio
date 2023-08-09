@@ -1,6 +1,6 @@
 import { Component,Inject  } from '@angular/core';
 import { DOCUMENT } from '@angular/common'; 
-import { HtmlParser } from '@angular/compiler';
+
 
 @Component({
   selector: 'app-header',
@@ -12,6 +12,7 @@ export class HeaderComponent {
     document.getElementById('el');
   }
 
+ 
   menuClick : boolean = true;
   
   
@@ -27,5 +28,6 @@ export class HeaderComponent {
     }
     
   }
+
 
 }
