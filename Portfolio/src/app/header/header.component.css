@@ -35,7 +35,7 @@ nav{
 .btn{
     padding : 1rem;
     border-radius: 15px;
-    background-color: rgb(126,105,211);
+    background-color: rgba(56, 151, 198, 0.881);
     color: white;   
     border: none;
     letter-spacing: 3px;
