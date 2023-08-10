@@ -83,43 +83,79 @@ h1{
 }
 
                         /* ---------------Project Contents---------- */          
-
-.projectcontent{
-    max-height: fit-content;
-    height: 200px;
-    max-width: 250px;
-    border-radius: 1rem;
-    gap: 1rem;
-    margin-left: 1rem;
-    overflow: hidden;
-    padding: 1rem;
-    box-shadow: 0 4px 8px 0 rgba(52, 194, 199, 0.645), 0 6px 20px 0 rgba(0, 0, 0, 0.41);
+.projectcontainer{
+    margin-top: 3rem;
 }
 
-.projectcontent:hover{
-    background-color: rgb(0, 0, 0);
-    z-index: -1;
+.myproject{
+    text-align: center;
+    padding: 1rem;
+}
+
+.outerloop{
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        justify-content: space-evenly;
+}
+.loop{
+    display: flex;
+}
+.projectname{
+    margin: 0;
 }
 .projectimage{        
-    /* background-image: url('../../assets/Experiance_Projects/tictactow.jpg'); */
     background-size: cover;
-    max-width: 250px;    
+    max-width: 280px;   
+    max-height: 250px; 
 }
 
-
-.projectimage :hover{
-    opacity: 0.1;
+.projectcontent  {   
+    box-shadow: 0 4px 8px 0 rgba(52, 194, 199, 0.645), 0 6px 20px 0 rgba(0, 0, 0, 0.41);
+    border-radius: 1rem 1rem 0 0;
+    width: 280px;
+    max-height: 250px; 
+    overflow: hidden;
 }
 
-.projectname{
-    position: relative;    
-    text-align: center;    
-    align-items: center;
-    
-    
+.projectimage{        
+    background-size: cover;
+    max-width: 280px;   
+    max-height: 250px; 
 }
 
-.pdesc{
+.textcontent{
+    background-color: rgba(0, 0, 0, 0.205);
     position: relative;
-    bottom: -150px;
+    padding: 1rem;
+    transform: translatey(-30%);
+    display: flex;
+    flex-flow: column; 
+    gap: 0.5rem;   
+}
+
+.textcontent:hover{
+    padding: 1rem;
+    transform: translatey(-80%);
+    transition: 0.5s ease;
+    height: 250px;
+}
+
+.projectlinkbtn{
+    border: 0;
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+    background-image: linear-gradient(rgb(126,127,216),rgb(0,175,211));
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 4px 8px 0 rgba(159, 233, 235, 0.645), 0 6px 20px 0 rgba(0, 0, 0, 0.41);
+    cursor: pointer;
+}
+
+.projectlinkbtn:hover{
+    background-image: none;
+    background-color: rgb(126,127,216);    
+    color: white;
+    font-weight: bold;
+    transition: 0.5s ease;   
 }

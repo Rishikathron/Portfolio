@@ -15,4 +15,29 @@ export class EducationComponent {
       {year : "2021 August - 2022 March" , role : "Data Engineer" , about:"Learnt and Applied Python Programming Language along with DataStructures to create and develop Application from backend while maintaining the Data in SQL Server."},
       {year : "2022 March - 2023 March" , role : "Application Development Associate" , about:"Created and Maintaining the Application with BackEnd Technologies like .Net, C#,Linq Queries, PL/SQL along with ORM-FrameWorks such as Entity Framework and Communicating to UserInterface using RESTFULL API'S with Front-End Technologies like Angular,HTML,CSS,Java Script."},
     ]
+
+    // project Contents
+
+    Projects : {Title : string, Description : string, image : string, Projectlink:string}[] = [
+      {
+        Title : "TIK TAC TOE",
+        Description : "A project solely to test out the TypeScript Programming Language in Action and along with very normal css stylings.",
+        image : "../../assets/Experiance_Projects/tictactow.jpg",
+        Projectlink : "https://rishwanth-tic-tac-toe.netlify.app"
+      },
+      {
+        Title : "TIK TAC TOE",
+        Description : "A project solely to test out the TypeScript Programming Language in Action and along with very normal css stylings.",
+        image : "../../assets/Experiance_Projects/todo.jpg",
+        // image : "../../assets/Experiance_Projects/tictactow.jpg",
+        Projectlink : "https://rishwanth-todo.netlify.app"
+      },
+      {
+        Title : "TIK TAC TOE",
+        Description : "A project solely to test out the TypeScript Programming Language in Action and along with very normal css stylings.",
+        image : "../../assets/Experiance_Projects/tictactow.jpg",
+        Projectlink : "https://rishwanth-tic-tac-toe.netlify.app"
+      },
+    ]
+
 }

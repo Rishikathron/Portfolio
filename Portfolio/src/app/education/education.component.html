@@ -32,14 +32,19 @@
     <div class="projectcontainer">
         <div class="main">
             <h1 class="myproject">My Projects</h1>
-            <div class="projectloop">
-                <div class="projectcontent">
-                    <img src="../../assets/Experiance_Projects/tictactow.jpg" alt=" Project image" class="projectimage" >
-                    <div class="projectimage"></div>
-                    <!-- <h2 class="projectname">project name</h2>
-                    <span class="pdesc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo unde minima nesciunt ab facere ill</span> -->
-                </div>
+            <div class="outerloop">
+                <div  *ngFor="let projectitem of Projects" class="loop">                                      
+                    <div class="projectcontent">
+                        <img src="{{projectitem.image}}" alt=" Project image" class="projectimage" width="280px" height="250px">
+                        <div class="textcontent">
+                            <h2 class="projectname">{{projectitem.Title}} </h2>
+                            <span class="pdesc">{{projectitem.Description}}</span>
+                            <a href={{projectitem.Projectlink}} class="projectlink" target="_blank"><button class="projectlinkbtn">Take me there</button></a>
+                        </div>  
+                    </div>                
             </div>
+            </div>
+           
             
         </div>
     </div>
