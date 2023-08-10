@@ -3,9 +3,22 @@ h3,h4{
 }
 
 h1{
-    color :  rgba(31, 147, 151,1);
+    color :  rgba(37, 34, 90, 0.804);
 }
 
+h2{
+    
+        color :  rgba(31, 147, 151,1);
+   
+}
+
+.Projectheader{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    color:  rgba(37, 34, 90, 0.804);
+    /*text-shadow: 0 0 1px  rgb(52,195,199);*/    
+}
 
 
 
