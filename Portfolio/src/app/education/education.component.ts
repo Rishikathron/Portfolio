@@ -38,6 +38,20 @@ export class EducationComponent {
         image : "../../assets/Experiance_Projects/tictactow.jpg",
         Projectlink : "https://rishwanth-tic-tac-toe.netlify.app"
       },
+      {
+        Title : "TIK TAC TOE",
+        Description : "A project solely to test out the TypeScript Programming Language in Action and along with very normal css stylings.",
+        image : "../../assets/Experiance_Projects/todo.jpg",
+        // image : "../../assets/Experiance_Projects/tictactow.jpg",
+        Projectlink : "https://rishwanth-todo.netlify.app"
+      },
+      {
+        Title : "TIK TAC TOE",
+        Description : "A project solely to test out the TypeScript Programming Language in Action and along with very normal css stylings.",
+        image : "../../assets/Experiance_Projects/todo.jpg",
+        // image : "../../assets/Experiance_Projects/tictactow.jpg",
+        Projectlink : "https://rishwanth-todo.netlify.app"
+      },
     ]
 
 }

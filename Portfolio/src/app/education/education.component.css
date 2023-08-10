@@ -83,9 +83,6 @@ h1{
 }
 
                         /* ---------------Project Contents---------- */          
-.projectcontainer{
-    margin-top: 3rem;
-}
 
 .myproject{
     text-align: center;
@@ -93,17 +90,17 @@ h1{
 }
 
 .outerloop{
-        display: flex;
-        gap: 2rem;
-        justify-content: center;
-        justify-content: space-evenly;
-}
-.loop{
     display: flex;
+    flex-wrap: wrap;    
+    gap: 5rem;   
+    justify-content: center; 
 }
+
 .projectname{
     margin: 0;
+    margin-bottom: 0.3rem;
 }
+
 .projectimage{        
     background-size: cover;
     max-width: 280px;   
@@ -118,28 +115,32 @@ h1{
     overflow: hidden;
 }
 
-.projectimage{        
-    background-size: cover;
-    max-width: 280px;   
-    max-height: 250px; 
-}
 
 .textcontent{
     background-color: rgba(0, 0, 0, 0.205);
     position: relative;
     padding: 1rem;
     transform: translatey(-30%);
+    transition: 0.6s ease;
     display: flex;
     flex-flow: column; 
     gap: 0.5rem;   
 }
 
-.textcontent:hover{
+/* .desc{
+    display: none;
+} */
+
+.textcontent:hover {
     padding: 1rem;
     transform: translatey(-80%);
-    transition: 0.5s ease;
-    height: 250px;
+    transition: 0.6s ease;
+    height: 250px;    
 }
+
+/* .textcontent:hover> .desc{
+    display: block;
+} */
 
 .projectlinkbtn{
     border: 0;
@@ -158,4 +159,4 @@ h1{
     color: white;
     font-weight: bold;
     transition: 0.5s ease;   
-}
+} 
