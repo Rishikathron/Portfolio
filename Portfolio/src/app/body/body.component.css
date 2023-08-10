@@ -1,3 +1,11 @@
+.mainbody{
+  display: flex;    
+  gap: 7rem;  
+  margin: 1rem;  
+}
+.innercontainer{
+  display: flex;  
+}
 
 .hero{
     display: flex;
@@ -5,9 +13,6 @@
     margin-top: 5rem;
 }
 
-ul li {
-    list-style: none;
-}
 
 /* ----------dev animation---------- */
 
@@ -17,6 +22,7 @@ ul li {
   
   h1 {
     font-size: 45px;
+    margin: 0;
   }  
   
   .inner-headings {   
@@ -65,6 +71,7 @@ ul li {
       top: -150px;
     }
   }
+/* ----------dev animation---------- */
   @media (max-width:720px){
     .outer-headings {    
       display:  none;      
@@ -73,6 +80,8 @@ ul li {
       display: block;
     }
   }
+
+
 /* --------------- */
 .intro{
   margin-bottom: 0;
@@ -82,6 +91,7 @@ ul li {
 .about{
   margin-top: 1rem;
 }
+
 .flexi {
     list-style: none;
     display: flex;
@@ -90,14 +100,10 @@ ul li {
     margin-top: 0.3%;
     
 }
-
-
-
 .flexi{    
     display: grid;
     grid-template-columns: 2rem 2rem 2rem;
-    gap: 1rem; 
-    
+    gap: 1rem;    
 
 }
 
@@ -154,42 +160,28 @@ ul li {
   display: flex;
   flex-direction: row;
 }
-.mainbody{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    gap: 5rem;
-    
-}
 
 
-.bodyimg{
-    background-image: url("../../assets/SkillComponentImages/computer.png");
+
+.bodyimg{  
+  display: flex; 
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 450px;    
-    transform: perspective(300px) rotateX(0deg) rotateY(0deg);
+    background-size: contain;   
 }
 
 @media all and (max-width:1022px){
     .container{
        text-align: center;
        justify-content: center;
+       margin: 0;
     }
+
     .mainbody{
         display: flex;
         flex-direction: column-reverse;
         gap:2rem
     }
-    .bodyimg{
-        background-image: url("./BodyImages/profileimg.png");
-        background-repeat: no-repeat;
-        background-size: contain;
-        height: 300px;
-        display: flex;
-        position: relative;
-        left: 35%;
-        align-items: center;
-    }
+    
     .flexi{
         justify-content: center;
         text-align: center;
@@ -197,27 +189,29 @@ ul li {
     }
 }
 
-@media (max-width:780px){
-    .bodyimg{
-        background-image: url("./BodyImages/profileimg.png");
-        background-repeat: no-repeat;
-        background-size: contain;
-        height: 300px;
-        display: flex;
-        position: relative;
-        left: 25%;
-        align-items: center;
-    }
-}
+
 /* -----------------------skills Section----------- */
+
+.Line{
+  width: 100%;
+}
+
+.skillcontainer{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-flow: column;
+}
+
 .Skills{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     flex : 0 0 33.333333%
 } 
 
-
-.container{
+.container1{
     margin: 2rem;
 }
 
@@ -226,6 +220,7 @@ ul li {
     justify-content: center;
     font-size: x-large;
     color:  rgba(17, 112, 114, 0.821);;
-    /* text-shadow: 0 0 1px  rgb(52,195,199); */
-    
+    /*text-shadow: 0 0 1px  rgb(52,195,199);*/    
 }
+
+

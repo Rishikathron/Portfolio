@@ -92,13 +92,14 @@ h1{
 .outerloop{
     display: flex;
     flex-wrap: wrap;    
-    gap: 5rem;   
+    gap: 3rem;
     justify-content: center; 
 }
 
 .projectname{
     margin: 0;
     margin-bottom: 0.3rem;
+    text-align: center;
 }
 
 .projectimage{        
@@ -113,11 +114,14 @@ h1{
     width: 280px;
     max-height: 250px; 
     overflow: hidden;
+    
+    /* margin-right : 4rem;
+    margin-bottom: 2rem; */
 }
 
 
 .textcontent{
-    background-color: rgba(0, 0, 0, 0.205);
+    background-color: rgba(0, 0, 0, 0.271);
     position: relative;
     padding: 1rem;
     transform: translatey(-30%);
@@ -127,15 +131,14 @@ h1{
     gap: 0.5rem;   
 }
 
-/* .desc{
-    display: none;
-} */
 
 .textcontent:hover {
     padding: 1rem;
     transform: translatey(-80%);
     transition: 0.6s ease;
-    height: 250px;    
+    height: 250px;  
+    color: white;
+    background-color: rgba(0, 0, 0, 0.595);
 }
 
 /* .textcontent:hover> .desc{
@@ -149,7 +152,6 @@ h1{
     background-image: linear-gradient(rgb(126,127,216),rgb(0,175,211));
     color: white;
     font-weight: bold;
-    box-shadow: 0 4px 8px 0 rgba(159, 233, 235, 0.645), 0 6px 20px 0 rgba(0, 0, 0, 0.41);
     cursor: pointer;
 }
 
@@ -158,5 +160,7 @@ h1{
     background-color: rgb(126,127,216);    
     color: white;
     font-weight: bold;
-    transition: 0.5s ease;   
+    transition: 0.5s ease; 
+    box-shadow: 0 4px 8px 0 rgba(159, 233, 235, 0.645), 0 6px 20px 0 rgba(0, 0, 0, 0.41);
+  
 } 

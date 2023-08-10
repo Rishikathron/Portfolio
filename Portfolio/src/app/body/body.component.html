@@ -1,56 +1,56 @@
 <div class="container">
 
-    <div class="mainbody" id="about">
-        <div class="hero">
-            <div class="name">
-                <h1 >Hi, I'm <span class="intro">Rishwanth Ravi</span></h1>
-                <div class="outer-headings">                    
-                    <div class="inner-headings">
-                        <span>
-                          Software Engineer <br/>
-                          Angular Developer <br/>
-                          .NET Developer <br/>
-                          Gamer<br/>
-                        </span>
-                    </div>                    
+    <div class="innercontainer">
+        <div class="mainbody" id="about">
+        
+            <div class="hero">
+                <div class="name">
+                    <h1 >Hi, I'm <span class="intro">Rishwanth Ravi</span></h1>
+                    <div class="outer-headings">                    
+                        <div class="inner-headings">
+                            <span>
+                              Software Engineer <br/>
+                              Angular Developer <br/>
+                              .NET Developer <br/>
+                              Gamer<br/>
+                            </span>
+                        </div>                    
+                    </div>
+                    <div class="alterrole">
+                        <h2>A Developer</h2>
+                    </div>
+                </div>    
+                <div class="about">
+                    Lorem ipsum dolor sit amet consectetur adipisicing edivt. Harum,<br> labore. Beatae modi, expdivcabo veritatis nostrum repellat quasi nemo<br> eveniet debitis exercitationem inventore! Iure magnam dolor deleniti corrupti corporis.    
                 </div>
-                <div class="alterrole">
-                    <h2>A Developer</h2>
-                </div>
+                <div class="interactive">
+                    <div class="sociallinks">
+                        <p>FIND WITH ME</p>
+                        <div class="flexi">
+                            <a href="https://www.linkedin.com/in/rishi1608/" target="_blank"><div class="linkedin"></div></a>
+                            <a href="https://github.com/Rishikathron" target="_blank"><div class="git"></div></a>
+                            <a href="https://www.instagram.com/this_is_rishi_0116/" target="_blank"><div class="insta"></div></a>           
+                        </div>                
+                    </div>
+                    <div class="CV"><a href="../../assets/Resume/RISHWANTH_RAVI_RESUME.pdf" target="_blank"><button class="btn">DOWNLOAD CV</button></a></div>                 
+                </div> 
             </div>
     
-            <div class="about">
-                Lorem ipsum dolor sit amet consectetur adipisicing edivt. Harum,<br> labore. Beatae modi, expdivcabo veritatis nostrum repellat quasi nemo<br> eveniet debitis exercitationem inventore! Iure magnam dolor deleniti corrupti corporis.    
-            </div>
-            <div class="interactive">
-                <div class="sociallinks">
-                    <p>FIND WITH ME</p>
-                    <div class="flexi">
-                        <a href="https://www.linkedin.com/in/rishi1608/" target="_blank"><div class="linkedin"></div></a>
-                        <a href="https://github.com/Rishikathron" target="_blank"><div class="git"></div></a>
-                        <a href="https://www.instagram.com/this_is_rishi_0116/" target="_blank"><div class="insta"></div></a>           
-                    </div>                
-                </div>
-                <div class="CV"><a href="../../assets/Resume/RISHWANTH_RAVI_RESUME.pdf" target="_blank"><button class="btn">DOWNLOAD CV</button></a></div>                 
-            </div>
-             
-
+            <div class="bodyimg"><img src="../../assets/SkillComponentImages/computer.png" alt="" height="450px" ></div>
+    
         </div>
-        <div class="bodyimg"></div>
     </div>
     
     <br><br><hr class="Line"><br>
-    <div class="Skillheader"><H1>My Skills</H1></div>
-    <div  class="Skills container" >
-        <div *ngFor = "let detail of details">
-            <app-skills [SkillImg] = detail></app-skills>
+
+    <div class="skillcontainer">
+        <div class="Skillheader"><H1>My Skills</H1></div>
+        <div  class="Skills container1" >
+            <div *ngFor = "let detail of details">
+                <app-skills [SkillImg] = detail></app-skills>
+            </div>
         </div>
     </div>
     <br><br><hr class="Line"><br>
 
-
-    <!-- <div class="Contact">
-        <app-contact></app-contact>
-    </div>
-     -->
 </div>

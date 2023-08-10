@@ -1,28 +1,27 @@
-html{
-    scroll-behavior: smooth;
+
+.Portfolio{
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    color: rgb(30,26,85);
+    initial-letter: red;
 }
 
-.logo
-{
-    background-image: url("./HeaderImages/R-Logo.jpg");
-    height: 90px;
-    width: 70px;
-    background-repeat: no-repeat;    
-    background-size: contain;
-    cursor: pointer;
+.Portfolio::first-letter{
+    font-size: 3.5rem;
 }
 
 .navbar{
     height: 12%;
-    display: flex;    
-    align-items: center;    
+    display: flex;     
+    justify-content: space-between; 
 }
 
 
-nav{
+/* nav{
     flex: 1;
     text-align: right;
-}
+} */
 
 .navbar ul li {
     list-style: none;
@@ -35,82 +34,49 @@ nav{
     cursor: pointer;    
 }
 
-.btn{
-    padding : 1rem;
-    border-radius: 15px;
-    background-color:rgb(126,127,216);
-    color: white; 
-    font-weight: bold;
-    border: none;
-    letter-spacing: 3px;
-    box-shadow:  0 4px 8px 0 rgba(52, 194, 199, 0.318), 0 6px 20px 0 rgba(0, 0, 0, 0.059);
-    cursor: pointer;
-}
 
-.btn:hover{
-    color: rgb(126,127,216);
-    background-color: white;
-    transition: 0.4s;
-}
-
-#Menu{
-    background-image: url(./HeaderImages/menu1.png);
-    background-repeat: no-repeat;    
-    background-size: contain;
-    height: 50px;
-    width: 40px;
-    display: none;
-}
-#navmedia{
-    display: block;
-}
-
-a{
-    
+a{    
     text-decoration: none;
     font-weight: bold;
+    font-size: large;
     color: rgb(30,26,85);
-    /* text-shadow: 0 0 1px  rgb(52,195,199); */
     letter-spacing: 0.1rem;
 }
 
+ul .exp{
+    display: block;
+}
+
 a:hover{
-    text-decoration: underline;
-    
+    text-decoration: underline;  
 }
-
-@media all and (max-width:650px){
-
-    /* .navmedia{
-        display: none;
-    } */
+/* 
+@media  (max-width:885){
     .navbar{
-        flex-flow: row;
-    }
-    .navbar ul li{
         display: flex;
-        flex-direction: row;
-        margin-left: 5%;
+        flex-flow: row;
+        background-color: red;
+        height: 3rem;
+        width: 1rem;
     }
-    nav{
-        position: absolute;
-        top: 5rem;
-        right: 0;
+    ul li{
+        background-color: red;
     }
-    
-    
-    .logo{
-        position: absolute;
-        top: 2rem;        
-    }
-    .btn{
-        margin-right: 1rem;
-    }
+} */
 
-    #Menu{
-        display: block;
-        position: absolute;
-        top: 2.5rem;
-        right: 3rem;
+
+@media  (max-width:885px){
+ 
+    .navbar{
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
     }
-}
+    
+     .navbar ul li{
+        display: flex; 
+        align-items: center;
+    }
+   
+} 

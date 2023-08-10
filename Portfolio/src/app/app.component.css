@@ -8,11 +8,10 @@
 }
 
 
-@media all and (max-width : 655px){
+ @media all and (max-width : 655px){
     .main{
         display: flex;
-        flex-direction: column;
-        
+        flex-direction: column;        
         padding-left: 1rem;
     }
 }

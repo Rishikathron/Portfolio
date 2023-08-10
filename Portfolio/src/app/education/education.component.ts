@@ -26,31 +26,30 @@ export class EducationComponent {
         Projectlink : "https://rishwanth-tic-tac-toe.netlify.app"
       },
       {
-        Title : "TIK TAC TOE",
+        Title : "To Do",
         Description : "A project solely to test out the TypeScript Programming Language in Action and along with very normal css stylings.",
-        image : "../../assets/Experiance_Projects/todo.jpg",
+        image : "../../assets/Experiance_Projects/to_do.jpg",
         // image : "../../assets/Experiance_Projects/tictactow.jpg",
         Projectlink : "https://rishwanth-todo.netlify.app"
       },
       {
-        Title : "TIK TAC TOE",
-        Description : "A project solely to test out the TypeScript Programming Language in Action and along with very normal css stylings.",
-        image : "../../assets/Experiance_Projects/tictactow.jpg",
-        Projectlink : "https://rishwanth-tic-tac-toe.netlify.app"
+        Title : "FaceRecognition",
+        Description : "Project which is made with Python Programming Language along with OpenCV by training the datamodel and dentifying or confirming an individual's identity using their face",
+        image : "../../assets/Experiance_Projects/FaceRecognition.jpg",
+        Projectlink : "https://github.com/Rishikathron/Face-Recognization.git"
       },
       {
-        Title : "TIK TAC TOE",
-        Description : "A project solely to test out the TypeScript Programming Language in Action and along with very normal css stylings.",
-        image : "../../assets/Experiance_Projects/todo.jpg",
-        // image : "../../assets/Experiance_Projects/tictactow.jpg",
-        Projectlink : "https://rishwanth-todo.netlify.app"
+        Title : "FR-Attandance",
+        Description : "Advanced application of the Face Recognition project which marks attendance automatically with Excel on frequent intervals and update the Assessors through E-Mail.",
+        image : "../../assets/Experiance_Projects/Attendance.png",
+        Projectlink : "https://github.com/Rishikathron/Attendance-Management-System-in-Image-Processing.git"
       },
       {
-        Title : "TIK TAC TOE",
-        Description : "A project solely to test out the TypeScript Programming Language in Action and along with very normal css stylings.",
-        image : "../../assets/Experiance_Projects/todo.jpg",
+        Title : "E-Commerce",
+        Description : "An Undergoing Project project solely to focuss out the Api's, TypeScript and JavaScript and other Frameworks related to E-Commerce and learn core fundamentals through it.",
+        image : "../../assets/Experiance_Projects/E-Commerce.jpg",
         // image : "../../assets/Experiance_Projects/tictactow.jpg",
-        Projectlink : "https://rishwanth-todo.netlify.app"
+        Projectlink : "https://img.freepik.com/free-vector/construction-landing-page-template_52683-11358.jpg?w=1060&t=st=1691670519~exp=1691671119~hmac=599a323d0643baaf0b1fd2610d23778202119c6368e9d572884518c2cb647520"
       },
     ]
 

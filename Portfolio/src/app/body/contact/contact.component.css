@@ -133,6 +133,9 @@
     display: flex;
     gap: 1rem;
 }
+.row1 > .userinput{
+    width: 50%;
+}
 .userinput{
     display: flex;
     flex-direction: column;
