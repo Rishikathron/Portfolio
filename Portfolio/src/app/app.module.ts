@@ -9,6 +9,7 @@ import { SkillsComponent } from './body/skills/skills.component';
 import { ContactComponent } from './body/contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { EducationComponent } from './education/education.component';
+import { SkillsetComponent } from './body/skillset/skillset.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { EducationComponent } from './education/education.component';
     SkillsComponent,
     ContactComponent,
     FooterComponent,
-    EducationComponent    
+    EducationComponent,
+    SkillsetComponent    
   ],
   imports: [
     BrowserModule,

@@ -9,5 +9,11 @@ export class BodyComponent {
 
     details : string[] = ["../../../assets/SKILLS/html.png","../../../assets/SKILLS/css-3.png","../../../assets/SKILLS/python.png","../../../assets/SKILLS/.NEt.png","../../../assets/SKILLS/C_sharp.png","../../../assets/SKILLS/github.png",
                           "../../../assets/SKILLS/js.png","../../../assets/SKILLS/postgres.png","../../../assets/SKILLS/netcore.png","../../../assets/SKILLS/Angular.png"]
-
-    }
+      
+    fromDate : any = new Date("16-August-2021");
+    currentDate : any = new Date();
+                 
+    ExperianceYears : any  = this.currentDate.getFullYear() - this.fromDate.getFullYear();
+    ExperianceMonths :any = this.currentDate.getMonth() - this.fromDate.getMonth();   
+    
+}

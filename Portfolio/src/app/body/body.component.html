@@ -21,7 +21,7 @@
                     </div>
                 </div>    
                 <div class="about">
-                    <p class="selfdesc"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An Impassioned <span class="bullet">Associate Software Engineer</span> with a proven track record of <span class="bullet">2 years</span> in development, I am poised to elevate my expertise to the realm of  <span class="bullet">Full-Stack Engineering.</span> I am now <span class="bullet">embarking a journey</span> to <span class="bullet">join a prestigious company</span>, where I can <span class="bullet">embrace higher challenges</span> and expand my skill set. My journey is characterized by a thirst for knowledge, and an eagerness to master the intricate balance between front-end artistry and back-end intricacies.
+                    <p class="selfdesc"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An Impassioned <span class="bullet">Associate Software Engineer</span> with a proven track record of <span class="bullet">{{ExperianceYears}} Years & {{ExperianceMonths}} Months </span> in development, I am poised to elevate my expertise to the realm of  <span class="bullet">Full-Stack Engineering.</span> I am now <span class="bullet">embarking a journey</span> to <span class="bullet">join a prestigious company</span>, where I can <span class="bullet">embrace higher challenges</span> and expand my skill set. My journey is characterized by a thirst for knowledge, and an eagerness to master the intricate balance between front-end artistry and back-end intricacies.
                     </p>
                 </div>
                 <div class="interactive">
@@ -38,20 +38,24 @@
             </div>
     
             <div class="bodyimg"><img src="../../assets/SkillComponentImages/computer.png" alt="" height="450px" ></div>
-    
         </div>
     </div>
     
     <br><br><hr class="Line"><br>
 
-    <div class="skillcontainer">
+    <!-- <div class="skillcontainer">
         <div class="Skillheader"><H1>My Skills</H1></div>
         <div  class="Skills container1" >
             <div *ngFor = "let detail of details">
                 <app-skills [SkillImg] = detail></app-skills>
             </div>
         </div>
-    </div>
+    </div> -->
+
+    <!-- refer for skills   https://mattfarley.ca/ -->
+
+
+    <app-skillset></app-skillset>
     
 
 </div>
