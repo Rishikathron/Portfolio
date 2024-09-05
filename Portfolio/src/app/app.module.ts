@@ -10,6 +10,7 @@ import { ContactComponent } from './body/contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { EducationComponent } from './education/education.component';
 import { SkillsetComponent } from './body/skillset/skillset.component';
+import { TimelineComponent } from './timeline/timeline.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { SkillsetComponent } from './body/skillset/skillset.component';
     ContactComponent,
     FooterComponent,
     EducationComponent,
-    SkillsetComponent    
+    SkillsetComponent,
+    TimelineComponent    
   ],
   imports: [
     BrowserModule,
