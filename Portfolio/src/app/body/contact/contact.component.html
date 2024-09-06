@@ -25,32 +25,32 @@
                 <div class="row1">
                     <div class="userinput">
                         <label id="Name"> YOUR NAME</label>
-                        <input type="text">
+                        <input type="text"  [(ngModel)] = "name">
                     </div>
                     <div class="userinput">
                         <label id="Number">PHONE NUMBER</label>
-                        <input type="text">
+                        <input type="text"  [(ngModel)] = "phnumber">
                     </div>
                 </div>
                 <div class="row2">
                     <div class="userinput">
                         <label id="Email"> EMAIL</label>
-                        <input type="email">
+                        <input type="email"  [(ngModel)] = "email">
                     </div>
                 </div>
                 <div class="row3">
                     <div class="userinput">
                         <label id="SUBJECT"> SUBJECT</label>
-                        <input type="email">
+                        <input type="email"  [(ngModel)] = "subject">
                     </div>
                 </div>
                 <div class="row4">
                     <div class="userinput">
                         <label id="MESSAGEBOX"> YOUR MESSAGE</label>
-                        <textarea type="text" class="yourmessage" ></textarea>
+                        <textarea type="text" class="yourmessage"  [(ngModel)] = "message" ></textarea>
                     </div>
                 </div>
-                <div class="sendbtndiv"><button class="sendbtn">SEND MESSAGE</button></div>
+                <div class="sendbtndiv"><button class="sendbtn" (click)="onsendmessage()" >SEND MESSAGE</button></div>
             </div>
         </div>
     </div>    
